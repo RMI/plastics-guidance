@@ -89,6 +89,65 @@
       "specVersion": "2.0.0",
       "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-plastics.json",
       "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-plastics/documentation/",
-      "data": {}
+      "data": {
+        "highestIntesityPlastic": "",
+        "lowestIntensityPlastic": "",
+        "methaneLeakIntensity": "",
+        "virginPlastic":
+          {
+            "virginPlasticPercentage": "",
+            "virginPlasticIntesity": "",
+            "primaryDataShare": "",
+            "methaneLeakIntensity": ""
+          },
+        "mechanicalPcr":
+          {
+            "mechanicalPcrPercentage": "",
+            "mechanicalPcrIntesity": "",
+            "primaryDataShare": "",
+            "methaneLeakIntensity": ""
+          },
+        "chemicalPcr":
+          {
+            "chemicalPcrPercentage": "",
+            "chemicalPcrIntesity": "",
+            "primaryDataShare": "",
+            "methaneLeakIntensity": ""
+          },
+        "bioBasedPlastic":
+          {
+            "bioBasedPlasticPercentage": "",
+            "bioBasedPlasticIntesity": "",
+            "primaryDataShare": "",
+            "methaneLeakIntensity": ""
+          },
+        "altBioBasedPlastic":
+          {
+            "bioBasedAlternativePercentage": "",
+            "bioBasedAlternativeIntesity": "",
+            "primaryDataShare": "",
+            "methaneLeakIntensity": ""
+          },
+        "ccuBasedPlastic":
+          {
+            "ccuBasedPlasticPercentage": "",
+            "ccuBasedPlasticIntesity": "",
+            "primaryDataShare": "",
+            "methaneLeakIntensity": ""
+          },
+        "pemReEmissionsScore": "",
+        "recyclabilityScore": "",
+        "endOfLifeIntensity": "",
+        "endOfLifePrimaryDataShare": "",
+        "useIntensity": "",
+        "credits": [
+          {
+            "creditEmissions": "",
+            "creditName": "",
+            "creditDescription": ""
+          }
+        ]
+      }
+    }
   ]
 }
