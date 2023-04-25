@@ -1,1 +1,105 @@
-
+{
+    "$id": "https://github.com/RMI/plastics-guidance/blob/main/samples/plastics_extension_sample.json",
+    "$schema": "https://github.com/RMI/plastics-guidance/blob/main/specs/plastics_json_schema.json",
+    "title": "PACT RMI Plastics Extension Schema",
+    "description": "A Pathfinder Data Model Extension for sharing information emissions data in plastics production.",
+    "$defs": {
+      "credit": {
+        "type": "object",
+        "properties": {
+          "creditEmissions": {"type": "number"},
+          "creditName": {"type": "string"},
+          "creditDescription": {"type": "string"}
+        },
+        "required": ["creditEmissions","creditName"]
+      }
+    },
+    "type": "object",
+    "properties": 
+      {
+      "highestIntensityPlastics": {
+        "type": "string"
+      },
+      "lowestIntensityPlastics": {
+        "type": "string"
+      },
+      "methaneLeakIntensity": {
+        "type": "number"
+      },
+      "virginPlastic": {
+        "type": "object",
+        "properties": {
+          "virginPlasticPercentage": {"type": "number"},
+          "virginPlasticIntensity": {"type": "number"},
+          "primaryDataShare": {"type": "number"},
+          "methaneLeakIntensity": {"type": "number"}
+        } 
+      },
+      "mechanicalPcr": {
+        "type": "object",
+        "properties": {
+          "mechanicalPcrPercentage": {"type": "number"},
+          "mechanicalPcrIntensity": {"type": "number"},
+          "primaryDataShare": {"type": "number"},
+          "methaneLeakIntensity": {"type": "number"}
+        } 
+      },
+      "chemicalPcr": {
+        "type": "object",
+        "properties": {
+          "chemicalPcrPercentage": {"type": "number"},
+          "chemicalPcrIntensity": {"type": "number"},
+          "primaryDataShare": {"type": "number"},
+          "methaneLeakIntensity": {"type": "number"}
+        } 
+      },
+      "bioBasedPlastic": {
+        "type": "object",
+        "properties": {
+          "bioBasedPlasticPercentage": {"type": "number"},
+          "bioBasedPlasticIntensity": {"type": "number"},
+          "primaryDataShare": {"type": "number"},
+          "methaneLeakIntensity": {"type": "number"}
+        } 
+      },
+      "altBioBasedPlastic": {
+        "type": "object",
+        "properties": {
+          "altBioBasedPlasticPercentage": {"type": "number"},
+          "altBioBasedPlasticIntensity": {"type": "number"},
+          "primaryDataShare": {"type": "number"},
+          "methaneLeakIntensity": {"type": "number"}
+        } 
+      },
+      "ccuBasedPlastic": {
+        "type": "object",
+        "properties": {
+          "ccuBasedPlasticPercentage": {"type": "number"},
+          "ccuBasedPlasticIntensity": {"type": "number"},
+          "primaryDataShare": {"type": "number"},
+          "methaneLeakIntensity": {"type": "number"}
+        } 
+      },
+      "pemReEmissionsScore": {
+        "type": "number"
+      },
+      "recyclabilityScore": {
+        "type": "number"
+      },
+      "endOfLifeIntensity": {
+        "type": "number"
+      },
+      "endOfLifePrimaryDataShare": {
+        "type": "number"
+      },
+      "useIntensity": {
+        "type": "number"
+      },
+      "credits": {
+        "type":"array",
+        "items": {"$ref": "#/$defs/credit"}
+      }
+      },
+    "required": ["highestIntensityPlastics","lowestIntensityPlastics","methaneLeakIntensity"]
+  }
+  
