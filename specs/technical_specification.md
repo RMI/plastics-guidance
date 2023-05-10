@@ -22,6 +22,70 @@ This section specifices a [data model extension](https://wbcsd.github.io/data-ex
 The data model extension contains additional information for plastics products, beyond what is specified in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#data-model)
 
 The data model extension consists of the following:
+1. HighestIntensityPlastic
+2. LowestIntensityPlastic
+3. MethaneLeakIntensity
+4. VirginPlastic
+5. MechanicalPcr
+6. ChemicalPcr
+7. BioBasedPlastic
+8. AltBioBasedPlastic
+9. CcuBasedPlastic
+10. PemReEmissionsScore
+11. RecyclabilityScore
+12. EndOfLifeIntensity
+13. EndofLifePrimaryDataShare
+14. UseIntensity
+15. Credits
+
+### 4.1. Data Type: HighestIntensityPlastic
+HighestIntensityPlastic refers to the resin type that makes up the highest fraction of fossil ghg emissions of the final product. 
+Valid values are: 
+**virginPlasti**
+**mechanicalPcr**
+**chemicalPcr**
+**bioBasedPlastic**
+**altBioBasedPlastic**
+**ccuBasedPlastic**
+
+#### 4.1.1. JSON Representation
+Each HighestIntenistyPlastic MUST be encoded as a JSON String.
+
+
+### 4.2. Data Type: LowestIntensityPlastic
+LowestIntensityPlastic refers to the resin type that makes up the lowest fraction of fossil ghg emissions of the final product. 
+Valid values are: 
+**virginPlasti**
+**mechanicalPcr**
+**chemicalPcr**
+**bioBasedPlastic**
+**altBioBasedPlastic**
+**ccuBasedPlastic**
+
+#### 4.2.1. JSON Representation
+Each LowestIntenistyPlastic MUST be encoded as a JSON String.
+
+### 4.3. Data Type: MethaneLeakIntensity
+
+#### 4.3.1. JSON Representation 
+Each MethaneLeakIntensity MUST be encoded as a JSON number. 
+
+### 4.4. Data Type: ResinDetail 
+
+#### 4.4.1. Properties
+The properties of a ResinDetail object are listed in the table below. 
+
+| **Property**                        | **Type** | **Req** | **Specification**                                                     |
+|-------------------------------------|----------|---------|-----------------------------------------------------------------------|
+| massPercentage:<br>Percent          | Number   | M       | The mass percentage of the final product for a particular resin type  |
+| emissionsIntensity                  | Number   | M       | The emissions intensity for a particular resin type                   |
+| primaryDataShare:<br>Percent        | Number   | M       | The primary data share percentage for a particular resin type         |
+| methaneLeakIntensity                | Number   | M       | The methane leak instensity for a particular resin type               |
+
+#### 4.4.2. JSON Representation
+Each ResinDetail MUST be encoded as a JSON object 
+
+### 4.5. Data Type 
 
 ### Data Type 4.14. Credits
 See [Terminology](https://github.com/RMI/plastics-guidance/blob/main/technical_specification.md#credits).
