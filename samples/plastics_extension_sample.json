@@ -99,22 +99,22 @@
         "methaneLeakIntensity": "",
         "virginPlastic":
           {
-            "virginPlasticPercentage": "",
-            "virginPlasticIntesity": "",
+            "massPercentage": "",
+            "emissionsIntesity": "",
             "primaryDataShare": "",
             "methaneLeakIntensity": ""
           },
         "mechanicalPcr":
           {
-            "mechanicalPcrPercentage": "",
-            "mechanicalPcrIntesity": "",
+            "massPercentage": "",
+            "emissionsIntesity": "",
             "primaryDataShare": "",
             "methaneLeakIntensity": ""
           },
         "chemicalPcr":
           {
-            "chemicalPcrPercentage": "",
-            "chemicalPcrIntesity": "",
+            "massPercentage": "",
+            "emissionsIntesity": "",
             "primaryDataShare": "",
             "methaneLeakIntensity": ""
           },
@@ -127,15 +127,15 @@
           },
         "altBioBasedPlastic":
           {
-            "bioBasedAlternativePercentage": "",
-            "bioBasedAlternativeIntesity": "",
+            "massPercentage": "",
+            "emissionsIntesity": "",
             "primaryDataShare": "",
             "methaneLeakIntensity": ""
           },
         "ccuBasedPlastic":
           {
-            "ccuBasedPlasticPercentage": "",
-            "ccuBasedPlasticIntesity": "",
+            "massPercentage": "",
+            "emissionsIntesity": "",
             "primaryDataShare": "",
             "methaneLeakIntensity": ""
           },
