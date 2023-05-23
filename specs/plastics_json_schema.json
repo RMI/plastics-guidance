@@ -80,11 +80,11 @@
           "methaneLeakIntensity": {"type": "number"}
         } 
       },
-      "pemReEmissionsScore": {
-        "type": "number"
+      "renewableEnergyRating": {
+        "type": "string"
       },
-      "recyclabilityScore": {
-        "type": "number"
+      "recyclabilityRating": {
+        "type": "string"
       },
       "endOfLifeIntensity": {
         "type": "number"
