@@ -1,5 +1,5 @@
 # Technical Specifications for RMI Plastics PCF Data Exchange
-## Updated 9 May 2023
+## Updated 23 May 2023
 
 -------------------------
 ## 1. Introduction
