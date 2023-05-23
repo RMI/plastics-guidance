@@ -39,8 +39,8 @@ The data model extension consists of the following:
 15. Credits
 
 ### 4.1. Data Type: HighestIntensityPlastic
-HighestIntensityPlastic refers to the resin type that makes up the highest fraction of fossil ghg emissions of the final product. 
-Valid values are: 
+HighestIntensityPlastic refers to the resin type that makes up the highest fraction of fossil ghg emissions of the final product.
+Valid values are:
 **virginPlasti**
 **mechanicalPcr**
 **chemicalPcr**
@@ -53,8 +53,8 @@ Each HighestIntenistyPlastic MUST be encoded as a JSON String.
 
 
 ### 4.2. Data Type: LowestIntensityPlastic
-LowestIntensityPlastic refers to the resin type that makes up the lowest fraction of fossil ghg emissions of the final product. 
-Valid values are: 
+LowestIntensityPlastic refers to the resin type that makes up the lowest fraction of fossil ghg emissions of the final product.
+Valid values are:
 **virginPlasti**
 **mechanicalPcr**
 **chemicalPcr**
@@ -67,13 +67,13 @@ Each LowestIntenistyPlastic MUST be encoded as a JSON String.
 
 ### 4.3. Data Type: MethaneLeakIntensity
 
-#### 4.3.1. JSON Representation 
-Each MethaneLeakIntensity MUST be encoded as a JSON number. 
+#### 4.3.1. JSON Representation
+Each MethaneLeakIntensity MUST be encoded as a JSON number.
 
-### 4.4. Data Type: ResinDetail 
+### 4.4. Data Type: ResinDetail
 
 #### 4.4.1. Properties
-The properties of a ResinDetail object are listed in the table below. 
+The properties of a ResinDetail object are listed in the table below.
 
 | **Property**                        | **Type** | **Req** | **Specification**                                                     |
 |-------------------------------------|----------|---------|-----------------------------------------------------------------------|
@@ -83,9 +83,9 @@ The properties of a ResinDetail object are listed in the table below.
 | methaneLeakIntensity                | Number   | M       | The methane leak instensity for a particular resin type               |
 
 #### 4.4.2. JSON Representation
-Each ResinDetail MUST be encoded as a JSON object 
+Each ResinDetail MUST be encoded as a JSON object
 
-### 4.5. Data Type 
+### 4.5. Data Type
 
 ### Data Type 4.14. Credits
 See [Terminology](https://github.com/RMI/plastics-guidance/blob/main/technical_specification.md#credits).
