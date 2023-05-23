@@ -85,26 +85,31 @@ The properties of a ResinDetail object are listed in the table below.
 Each ResinDetail MUST be encoded as a JSON object
 
 ### 4.5. Data Type RenewableEnergyRating
+RenewableEnergyRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
 
 #### 4.5.1. JSON Representation
 Each RenewableEnergyRating MUST be encoded as a JSON String.
 
 ### 4.6. Data Type RecyclabilityRating
+RecyclabilityRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
 
 #### 4.6.1. JSON Representation
 Each RecyclabilityRating MUST be encoded as a JSON String.
 
 ### 4.7. Data Type EndOfLifeIntensity
+Emissions instensity of a product's final end-of-life disposal method, as defined by Appendix B of RMI's Plastics Emissions Reporting Guidance.
 
 #### 4.7.1. JSON Representation
 Each EndOfLifeIntensity MUST be encoded as a JSON number.
 
 ### 4.8. Data Type EndOfLifePrimaryDataShare
+Primary Data Share of a products end-of-life disposal method, as defined by Appendix B of RMI's Plastics Emissions Reporting Guidance.
 
 #### 4.8.1. JSON Representation
 Each EndOfLifePrimaryDataShare MUST be encoded as a JSON number.
 
 ### 4.9. Data Type UseIntensity
+A metric intended to provide a view of the intended service life of a product, as defined by Appendix B of RMI's Plastics Emissions Reporting Guidance.
 
 #### 4.9.1. JSON Representation
 Each UseIntensity MUST be encoded as a JSON number.
