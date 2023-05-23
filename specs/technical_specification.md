@@ -51,7 +51,6 @@ Valid values are:
 #### 4.1.1. JSON Representation
 Each HighestIntenistyPlastic MUST be encoded as a JSON String.
 
-
 ### 4.2. Data Type: LowestIntensityPlastic
 LowestIntensityPlastic refers to the resin type that makes up the lowest fraction of fossil ghg emissions of the final product.
 Valid values are:
@@ -85,12 +84,35 @@ The properties of a ResinDetail object are listed in the table below.
 #### 4.4.2. JSON Representation
 Each ResinDetail MUST be encoded as a JSON object
 
-### 4.5. Data Type
+### 4.5. Data Type RenewableEnergyRating
 
-### Data Type 4.14. Credits
+#### 4.5.1. JSON Representation
+Each RenewableEnergyRating MUST be encoded as a JSON String.
+
+### 4.6. Data Type RecyclabilityRating
+
+#### 4.6.1. JSON Representation
+Each RecyclabilityRating MUST be encoded as a JSON String.
+
+### 4.7. Data Type EndOfLifeIntensity
+
+#### 4.7.1. JSON Representation
+Each EndOfLifeIntensity MUST be encoded as a JSON number.
+
+### 4.8. Data Type EndOfLifePrimaryDataShare
+
+#### 4.8.1. JSON Representation
+Each EndOfLifePrimaryDataShare MUST be encoded as a JSON number.
+
+### 4.9. Data Type UseIntensity
+
+#### 4.9.1. JSON Representation
+Each UseIntensity MUST be encoded as a JSON number.
+
+### Data Type 4.10. Credits
 See [Terminology](https://github.com/RMI/plastics-guidance/blob/main/technical_specification.md#credits).
 
-#### 4.14.1. Properties
+#### 4.10.1. Properties
 The properties of a Credits object are listed in the table below.
 
 | **Property**                | **Type** | **Req** | **Specification**                                                |
@@ -99,8 +121,8 @@ The properties of a Credits object are listed in the table below.
 | creditName                  | String   | M       | The name of the credit                                           |
 | creditDescription           | String   | O       | A description of a given credit                                  |
 
-### Data Type 4.15. CreditsSet
+### Data Type 4.11. CreditsSet
 A set of Credits values.
 
-#### Data Type 4.15.1 Properties
+#### Data Type 4.11.1 Properties
 As an array of Credits, with each object conforming to the JSON representation of Credits.
