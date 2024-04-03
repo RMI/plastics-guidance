@@ -32,7 +32,7 @@ The data model extension consists of the following:
 8. AltBioBasedPlastic
 9. CcuBasedPlastic
 10. PemReEmissionsScore
-11. RecyclabilityScore
+11. RecyclabilityRating
 12. EndOfLifeIntensity
 13. EndofLifePrimaryDataShare
 14. UseIntensity
