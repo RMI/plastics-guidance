@@ -80,7 +80,7 @@
           "methaneLeakIntensity": {"type": "number"}
         } 
       },
-      "renewableEnergyRating": {
+      "renewableRating": {
         "type": "string"
       },
       "recyclabilityRating": {
