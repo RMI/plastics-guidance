@@ -100,12 +100,6 @@ RecyclabilityRating is defined in Appendix B of RMI's Plastics Emissions Reporti
 #### 4.6.1. JSON Representation
 Each RecyclabilityRating MUST be encoded as a JSON String.
 
-### 4.7. Data Type RenewableRating
-RenewableRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
-
-#### 4.6.1. JSON Representation
-Each RecyclabilityRating MUST be encoded as a JSON String.
-
 ### 4.7. Data Type EndOfLifeIntensity
 Emissions instensity of a product's final end-of-life disposal method, as defined by Appendix B of RMI's Plastics Emissions Reporting Guidance.
 
