@@ -54,7 +54,7 @@ Each HighestIntenistyPlastic MUST be encoded as a JSON String.
 ### 4.2. Data Type: LowestIntensityPlastic
 LowestIntensityPlastic refers to the resin type that makes up the lowest fraction of fossil ghg emissions of the final product.
 Valid values are:
-**virginPlasti**
+**virginPlastic**
 **mechanicalPcr**
 **chemicalPcr**
 **bioBasedPlastic**
