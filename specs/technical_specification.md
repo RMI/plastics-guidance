@@ -31,7 +31,7 @@ The data model extension consists of the following:
 7. BioBasedPlastic
 8. AltBioBasedPlastic
 9. CcuBasedPlastic
-10. PemReEmissionsScore
+10. RenewableRating
 11. RecyclabilityRating
 12. EndOfLifeIntensity
 13. EndofLifePrimaryDataShare
@@ -86,12 +86,22 @@ Each ResinDetail MUST be encoded as a JSON object
 
 ### 4.5. Data Type RenewableEnergyRating
 RenewableEnergyRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
+Valid values are:
+**Tier1**
+**Tier2**
+**Tier3**
 
 #### 4.5.1. JSON Representation
 Each RenewableEnergyRating MUST be encoded as a JSON String.
 
 ### 4.6. Data Type RecyclabilityRating
 RecyclabilityRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
+
+#### 4.6.1. JSON Representation
+Each RecyclabilityRating MUST be encoded as a JSON String.
+
+### 4.7. Data Type RenewableRating
+RenewableRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
 
 #### 4.6.1. JSON Representation
 Each RecyclabilityRating MUST be encoded as a JSON String.
