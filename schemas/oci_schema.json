@@ -1,0 +1,245 @@
+{
+  "$id": "https://oci.rmi.org",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/oci",
+  "definitions": {
+    "API Category": { "type": "string" },
+    "API Gravity": { "type": "number" },
+    "All_Crude_bbld": { "type": "number" },
+    "Assay Name": { "type": "string" },
+    "Benchmark": { "type": "string" },
+    "Benchmark_Crdue_Price ($/bbl)": { "type": "number" },
+    "Bitumen_production_bbld": { "type": "number" },
+    "Breakeven Gas Price (usd/kcf)": { "type": "number" },
+    "Breakeven Oil Price (usd/bbl)": { "type": "number" },
+    "Condensate_production_bbld": { "type": "number" },
+    "Consumer GHG Responsibility (kgCO2eq/boe)": { "type": "number" },
+    "Country": { "type": "string" },
+    "Country_iso3": { "type": "string" },
+    "Crude Production Volume (bbl)": { "type": "number" },
+    "Crude_Volume_Band": { "type": "string" },
+    "Default Refinery Configuration": { "type": "string" },
+    "Downstream Carbon Dioxide Intensity (gCO2/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Downstream Carbon Dioxide Intensity (gCO2/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Downstream Carbon Dioxide Intensity (kgCO2/boe)": { "type": "number" },
+    "Downstream Emissions Intensity (gCO2eq/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Downstream Emissions Intensity (gCO2eq/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Downstream Emissions Intensity (kgCO2eq/boe)": { "type": "number" },
+    "Downstream Methane Intensity (gCH4/MJ O&G Produced)": { "type": "number" },
+    "Downstream Methane Intensity (gCH4/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Downstream Methane Intensity (kgCH4/boe)": { "type": "number" },
+    "Downstream: Diesel for Trucks and Engines (kgCH4/boe)": {
+      "type": "number"
+    },
+    "Downstream: Diesel for Trucks and Engines (kgCO2/boe)": {
+      "type": "number"
+    },
+    "Downstream: Diesel for Trucks and Engines (kgCO2eq/boe)": {
+      "type": "number"
+    },
+    "Downstream: End Use Leakages (kgCH4/boe)": { "type": "number" },
+    "Downstream: End Use Leakages (kgCO2/boe)": { "type": "number" },
+    "Downstream: End Use Leakages (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Fuel Oil for Boilers (kgCH4/boe)": { "type": "number" },
+    "Downstream: Fuel Oil for Boilers (kgCO2/boe)": { "type": "number" },
+    "Downstream: Fuel Oil for Boilers (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Gasoline for Cars (kgCH4/boe)": { "type": "number" },
+    "Downstream: Gasoline for Cars (kgCO2/boe)": { "type": "number" },
+    "Downstream: Gasoline for Cars (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Jet Fuel for Planes (kgCH4/boe)": { "type": "number" },
+    "Downstream: Jet Fuel for Planes (kgCO2/boe)": { "type": "number" },
+    "Downstream: Jet Fuel for Planes (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Liquefied Petroleum Gases (kgCH4/boe)": { "type": "number" },
+    "Downstream: Liquefied Petroleum Gases (kgCO2/boe)": { "type": "number" },
+    "Downstream: Liquefied Petroleum Gases (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Liquid Heavy Ends for Ships (kgCH4/boe)": { "type": "number" },
+    "Downstream: Liquid Heavy Ends for Ships (kgCO2/boe)": { "type": "number" },
+    "Downstream: Liquid Heavy Ends for Ships (kgCO2eq/boe)": {
+      "type": "number"
+    },
+    "Downstream: Natural Gas (kgCH4/boe)": { "type": "number" },
+    "Downstream: Natural Gas (kgCO2/boe)": { "type": "number" },
+    "Downstream: Natural Gas (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Natural Gas Liquids (kgCH4/boe)": { "type": "number" },
+    "Downstream: Natural Gas Liquids (kgCO2/boe)": { "type": "number" },
+    "Downstream: Natural Gas Liquids (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Petrochemical Feedstocks (kgCH4/boe)": { "type": "number" },
+    "Downstream: Petrochemical Feedstocks (kgCO2/boe)": { "type": "number" },
+    "Downstream: Petrochemical Feedstocks (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Petroleum Coke for Power (kgCH4/boe)": { "type": "number" },
+    "Downstream: Petroleum Coke for Power (kgCO2/boe)": { "type": "number" },
+    "Downstream: Petroleum Coke for Power (kgCO2eq/boe)": { "type": "number" },
+    "Downstream: Plastics Disposal (kgCH4/boe)": { "type": "number" },
+    "Downstream: Plastics Disposal (kgCO2/boe)": { "type": "number" },
+    "Downstream: Plastics Disposal (kgCO2eq/boe)": { "type": "number" },
+    "Dry Gas": { "type": "integer" },
+    "Energy Output of Oil and Gas Produced (MJ/d)": { "type": "number" },
+    "Energy Output of Petroleum Products (MJ/d)": { "type": "number" },
+    "Enhanced recovery": { "type": "integer" },
+    "Extra_heavy_oil_production_bbld": { "type": "number" },
+    "Field Name": { "type": "string" },
+    "Flare Rate": { "type": "string" },
+    "Flaring-to-Oil Ratio (scf flared/bbl)": { "type": "number" },
+    "Fracked": { "type": "boolean" },
+    "Gas composition C1": { "type": "number" },
+    "Gas composition CO2": { "type": "number" },
+    "Gas composition H2S": { "type": "number" },
+    "Gas shipped as LNG": { "type": "boolean" },
+    "Gas-to-Oil Ratio (scf/bbl)": { "type": "number" },
+    "Gas_Volume_Band": { "type": "string" },
+    "Gas_production_bbld": { "type": "number" },
+    "Heavy_oil_15to19_production_bbld": { "type": "number" },
+    "Heavy_oil_20to23_production_bbld": { "type": "number" },
+    "Industry GHG Responsibility (kgCO2eq/boe)": { "type": "number" },
+    "Last updated": { "type": "string" },
+    "Latitude": { "type": "number" },
+    "Light_production_bbld": { "type": "number" },
+    "Location": { "type": "string" },
+    "Longitude": { "type": "number" },
+    "Max Depth (ft)": { "type": "number" },
+    "Midstream Carbon Dioxide Intensity (gCO2/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Midstream Carbon Dioxide Intensity (gCO2/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Midstream Carbon Dioxide Intensity (kgCO2/boe)": { "type": "number" },
+    "Midstream Emissions Intensity (gCO2eq/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Midstream Emissions Intensity (gCO2eq/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Midstream Emissions Intensity (kgCO2eq/boe)": { "type": "number" },
+    "Midstream Methane Intensity (gCH4/MJ O&G Produced)": { "type": "number" },
+    "Midstream Methane Intensity (gCH4/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Midstream Methane Intensity (kgCH4/boe)": { "type": "number" },
+    "Midstream: Other Refinery Emissions (kgCO2eq/boe)": { "type": "number" },
+    "Midstream: Petrochemical Processes (kgCO2eq/boe)": { "type": "number" },
+    "Midstream: Refinery Electricity (kgCO2eq/boe)": { "type": "number" },
+    "Midstream: Refinery Heat (kgCO2eq/boe)": { "type": "number" },
+    "Midstream: Refinery Hydrogen via CNR (kgCO2eq/boe)": { "type": "number" },
+    "Midstream: Refinery Hydrogen via SMR (kgCO2eq/boe)": { "type": "number" },
+    "Midstream: Refinery Steam (kgCO2eq/boe)": { "type": "number" },
+    "NGL_Condensate_bbld": { "type": "number" },
+    "NGL_Volume_Band": { "type": "string" },
+    "NGL_production_bbld": { "type": "number" },
+    "Number of Producing Wells": { "type": "number" },
+    "OPEC": { "type": "string" },
+    "Offshore": { "type": "number" },
+    "Oil or Gas or Condensate": { "type": "string" },
+    "RMI Name": { "type": "string" },
+    "Region": { "type": "string" },
+    "Regular_production_bbld": { "type": "number" },
+    "Resource Type": { "type": "string" },
+    "Sour or Sweet": { "type": "string" },
+    "Sour_over3pct_production_bbld": { "type": "number" },
+    "Steam-to-Oil Ratio (bbl steam/bbl oil)": { "type": "number" },
+    "Sulfur Content Weight Percent": { "type": "number" },
+    "Synthetic_crude_production_bbld": { "type": "number" },
+    "Total Carbon Dioxide Emissions (Thousand Metric Tons CO2)": {
+      "type": "number"
+    },
+    "Total Carbon Dioxide Intensity (gCO2/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Total Carbon Dioxide Intensity (gCO2/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Total Carbon Dioxide Intensity (kgCO2/boe)": { "type": "number" },
+    "Total Emissions Intensity (kgCO2eq/boe)": { "type": "number" },
+    "Total GHG Emissions (Thousand Metric Tons CO2eq)": { "type": "number" },
+    "Total Methane Emissions (Thousand Metric Tons CH4)": { "type": "number" },
+    "Total Methane Intensity (kgCH4/boe)": { "type": "number" },
+    "Total Oil and Gas Production Volume (boe)": { "type": "number" },
+    "Total_BOED_Produced": { "type": "number" },
+    "Total_BOED_Produced_Rystad": { "type": "number" },
+    "Total_Volume_Band": { "type": "string" },
+    "Transport Carbon Dioxide Intensity (gCO2/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Transport Carbon Dioxide Intensity (gCO2/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Transport Carbon Dioxide Intensity (kgCO2/boe)": { "type": "number" },
+    "Transport Emissions Intensity (gCO2eq/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Transport Emissions Intensity (gCO2eq/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Transport Emissions Intensity (kgCO2eq/boe)": { "type": "number" },
+    "Transport Methane Intensity (gCH4/MJ O&G Produced)": { "type": "number" },
+    "Transport Methane Intensity (gCH4/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Transport Methane Intensity (kgCH4/boe)": { "type": "number" },
+    "Transport: Crude Shipping (kgCO2eq/boe)": { "type": "number" },
+    "Transport: LNG Shipping (kgCO2eq/boe)": { "type": "number" },
+    "Transport: Petroleum Product Shipping (kgCO2eq/boe)": { "type": "number" },
+    "Transport: Pipeline Gas Shipping (kgCO2eq/boe)": { "type": "number" },
+    "Upstream Carbon Dioxide Intensity (gCO2/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Upstream Carbon Dioxide Intensity (gCO2/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Upstream Carbon Dioxide Intensity (kgCO2/boe)": { "type": "number" },
+    "Upstream Emissions Intensity (gCO2eq/MJ O&G Produced)": {
+      "type": "number"
+    },
+    "Upstream Emissions Intensity (gCO2eq/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Upstream Emissions Intensity (kgCO2eq/boe)": { "type": "number" },
+    "Upstream Methane Emission Rate (NGSI Standard %)": { "type": "number" },
+    "Upstream Methane Emission Rate (gCH4/Total MJ Produced)": {
+      "type": "number"
+    },
+    "Upstream Methane Intensity (gCH4/MJ O&G Produced)": { "type": "number" },
+    "Upstream Methane Intensity (gCH4/MJ Petroleum Products)": {
+      "type": "number"
+    },
+    "Upstream Methane Intensity (kgCH4/boe)": { "type": "number" },
+    "Upstream: Carbon Dioxide Sequestration (kgCO2eq/boe)": {
+      "type": "number"
+    },
+    "Upstream: Crude Production & Extraction (kgCO2eq/boe)": {
+      "type": "number"
+    },
+    "Upstream: Drilling & Development (kgCO2eq/boe)": { "type": "number" },
+    "Upstream: Exploration (kgCO2eq/boe)": { "type": "number" },
+    "Upstream: Maintenance (kgCO2eq/boe)": { "type": "number" },
+    "Upstream: Offsite emissions credit/debit (kgCO2eq/boe)": {
+      "type": "number"
+    },
+    "Upstream: Other Small Sources (kgCO2eq/boe)": { "type": "number" },
+    "Upstream: Surface Processing (kgCO2eq/boe)": { "type": "number" },
+    "Upstream: Waste Disposal (kgCO2eq/boe)": { "type": "number" },
+    "Water-to-oil Ratio (bbl water/bbl oil)": { "type": "number" },
+    "Year": { "type": "number" },
+    "Years in Production": { "type": "number" },
+    "assay_name_full": { "type": "string" },
+    "ch4_gwp_potential": { "type": "number" },
+    "descriptor": { "type": "string" },
+    "gwp": { "type": "integer" },
+    "index": { "type": "integer" },
+    "input_gas_scfd": { "type": "number" },
+    "petchem_yield(kg/bbl)": { "type": "number" },
+    "petchem_yield_inc_NGL(kg/bbl)": { "type": "number" },
+    "petchem_yield_inc_NGL(kg/boe)": { "type": "number" },
+    "total_emission/petchem_yield(kgCO2eq/kgpetchemfeed)": { "type": "number" }
+  }
+}
