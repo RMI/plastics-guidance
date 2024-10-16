@@ -2,7 +2,7 @@
     "$id": "https://github.com/RMI/plastics-guidance/blob/main/samples/plastics_extension_sample.json",
     "$schema": "https://github.com/RMI/plastics-guidance/blob/main/specs/plastics_json_schema.json",
     "title": "PACT RMI Plastics Extension Schema",
-    "description": "A Pathfinder Data Model Extension for sharing information emissions data in plastics production.",
+    "description": "A Pathfinder Data Model Extension for sharing information emissions data in the plastics extrusion and molding sub-sector.",
     "$defs": {
       "credit": {
         "type": "object",
