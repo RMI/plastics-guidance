@@ -112,7 +112,7 @@ Emissions instensity of a product's final end-of-life disposal method, as define
 Each EndOfLifeIntensity MUST be encoded as a JSON number.
 
 ### 4.9. Data Type EndOfLifePrimaryDataShare
-Primary Data Share of a products end-of-life disposal method, as defined by Appendix B of RMI's Plastics Extrusion and Molding Guidance
+Primary Data Share of a products end-of-life disposal method, as defined by Appendix B of RMI's Plastics Extrusion and Molding Guidance.
 
 #### 4.9.1. JSON Representation
 Each EndOfLifePrimaryDataShare MUST be encoded as a JSON number.
