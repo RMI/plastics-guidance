@@ -6,7 +6,7 @@ The guidance serves as a methodological foundation for RMI's Plastics Data Model
 ## Product Level Accounting Guidance
 [RMI's Plastics Extrusion and Molding Guidance.](rmi.org/insight/plastics-extrusion-and-molding-greenhouse-gas-emissions-reporting-guidance/) provides a methodology for reporting emissions in a way that enables the development of a differentiated market for low-embodied-emissions in the plastics extrusion and molding sub-sector that promotes the necessary investment to decarbonize the sector.
 
-The decarbonization levers incentivized through this guidance include: 
+The decarbonization levers incentivized through this guidance include:
 1. Maximize the percent of mechanically recycled plastic.
 2. Maximize the precent of energy input from renewable electricity.
 3. Minimize carbon combustion and methane leaks.
