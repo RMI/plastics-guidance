@@ -5,7 +5,7 @@
 ## 1. Introduction
 This document contains the necessary technical foundation for a plastics data model extension to the [Pathfinder Network,](https://wbcsd.github.io/data-exchange-protocol/v2/#pathfinder-network) developed by [RMI.](https://rmi.org/) For full documentation of the Pathfinder Network, refer to the link above.
 
-The goal of this document is to enable the interoperable exchange of plastics Product Carbon Footprints, in accordance with the RMI's [Plastic Modling Accounting Guidance], across conforming host systems.
+The goal of this document is to enable the interoperable exchange of plastics Product Carbon Footprints, in accordance with the RMI's [Plastics Extrusion and Molding Guidance](https://rmi.org/insight/plastics-extrusion-and-molding-greenhouse-gas-emissions-reporting-guidance/), across conforming host systems.
 
 ## 2. Terminology
 For a full list of terminology, please refer to the [Terminology](https://wbcsd.github.io/data-exchange-protocol/v2/#terminology) section of the Pathfinder techical specification.
@@ -69,9 +69,14 @@ Each LowestIntenistyPlastic MUST be encoded as a JSON String.
 #### 4.3.1. JSON Representation
 Each MethaneLeakIntensity MUST be encoded as a JSON number.
 
-### 4.4. Data Type: ResinDetail
+### 4.4. Data Type: MethaneLeakIntensityPrimaryDataShare
 
-#### 4.4.1. Properties
+#### 4.4.1. JSON Representation
+Each MethaneLeakIntensity MUST be encoded as a JSON number.
+
+### 4.5. Data Type: ResinDetail
+
+#### 4.5.1. Properties
 The properties of a ResinDetail object are listed in the table below.
 
 | **Property**                        | **Type** | **Req** | **Specification**                                                     |
@@ -81,47 +86,47 @@ The properties of a ResinDetail object are listed in the table below.
 | primaryDataShare:<br>Percent        | Number   | M       | The primary data share percentage for a particular resin type         |
 | methaneLeakIntensity                | Number   | M       | The methane leak instensity for a particular resin type               |
 
-#### 4.4.2. JSON Representation
+#### 4.5.2. JSON Representation
 Each ResinDetail MUST be encoded as a JSON object
 
-### 4.5. Data Type RenewableEnergyRating
-RenewableEnergyRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
+### 4.6. Data Type RenewableEnergyRating
+RenewableEnergyRating is defined in Appendix B of RMI's Plastics Extrusion and Molding Guidance.
 Valid values are:
 **Tier1**
 **Tier2**
 **Tier3**
 
-#### 4.5.1. JSON Representation
+#### 4.6.1. JSON Representation
 Each RenewableEnergyRating MUST be encoded as a JSON String.
 
-### 4.6. Data Type RecyclabilityRating
-RecyclabilityRating is defined in Appendix B of RMI's Plastics Emissions Reporting Guidance.
-
-#### 4.6.1. JSON Representation
-Each RecyclabilityRating MUST be encoded as a JSON String.
-
-### 4.7. Data Type EndOfLifeIntensity
-Emissions instensity of a product's final end-of-life disposal method, as defined by Appendix B of RMI's Plastics Emissions Reporting Guidance.
+### 4.7. Data Type RecyclabilityRating
+RecyclabilityRating is defined in Appendix B of RMI's Plastics Extrusion and Molding Guidance.
 
 #### 4.7.1. JSON Representation
-Each EndOfLifeIntensity MUST be encoded as a JSON number.
+Each RecyclabilityRating MUST be encoded as a JSON String.
 
-### 4.8. Data Type EndOfLifePrimaryDataShare
-Primary Data Share of a products end-of-life disposal method, as defined by Appendix B of RMI's Plastics Emissions Reporting Guidance.
+### 4.8. Data Type EndOfLifeIntensity
+Emissions instensity of a product's final end-of-life disposal method, as defined by Appendix B of RMI's Plastics Extrusion and Molding Guidance.
 
 #### 4.8.1. JSON Representation
-Each EndOfLifePrimaryDataShare MUST be encoded as a JSON number.
+Each EndOfLifeIntensity MUST be encoded as a JSON number.
 
-### 4.9. Data Type UseIntensity
-A metric intended to provide a view of the intended service life of a product, as defined by Appendix B of RMI's Plastics Emissions Reporting Guidance.
+### 4.9. Data Type EndOfLifePrimaryDataShare
+Primary Data Share of a products end-of-life disposal method, as defined by Appendix B of RMI's Plastics Extrusion and Molding Guidance.
 
 #### 4.9.1. JSON Representation
+Each EndOfLifePrimaryDataShare MUST be encoded as a JSON number.
+
+### 4.10. Data Type UseIntensity
+A metric intended to provide a view of the intended service life of a product, as defined by Appendix B of RMI's Plastics Extrusion and Molding Guidance.
+
+#### 4.10.1. JSON Representation
 Each UseIntensity MUST be encoded as a JSON number.
 
-### Data Type 4.10. Credits
+### Data Type 4.11. Credits
 See [Terminology](https://github.com/RMI/plastics-guidance/blob/main/technical_specification.md#credits).
 
-#### 4.10.1. Properties
+#### 4.11.1. Properties
 The properties of a Credits object are listed in the table below.
 
 | **Property**                | **Type** | **Req** | **Specification**                                                |
@@ -130,8 +135,8 @@ The properties of a Credits object are listed in the table below.
 | creditName                  | String   | M       | The name of the credit                                           |
 | creditDescription           | String   | O       | A description of a given credit                                  |
 
-### Data Type 4.11. CreditsSet
+### Data Type 4.12. CreditsSet
 A set of Credits values.
 
-#### Data Type 4.11.1 Properties
+#### Data Type 4.12.1 Properties
 As an array of Credits, with each object conforming to the JSON representation of Credits.
